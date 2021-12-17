@@ -1,0 +1,76 @@
+ /* Tablet and Mobile */
+ 
+ @media(max-width:1023px) {
+     .form-control {
+         padding: 10px 12px;
+     }
+ }
+ /* Tablet */
+ 
+ @media (min-width: 740px) and(max-width: 1023px) {
+     .form-submit {
+         padding: 10px 18px;
+         width: 20%;
+     }
+ }
+ /* Mobile */
+ 
+ @media (max-width: 739px) {
+     #nav {
+         display: block;
+     }
+     #nav>li {
+         display: block;
+     }
+     #nav li a {
+         padding: 1px 24px;
+     }
+     #nav .subnav {
+         position: initial;
+         background-color: #333;
+     }
+     #nav .subnav a {
+         color: #fff;
+         padding: 5px 41px;
+     }
+     #header {
+         overflow: hidden;
+     }
+     #header .search-btn {
+         display: none;
+     }
+     #header .mobile-menu-btn {
+         display: block;
+     }
+     #nav>li:first-child {
+         display: inline-block;
+     }
+     #content .member-item {
+         margin-top: 34px;
+         width: 100%;
+     }
+     .member-img {
+         width: 195px;
+     }
+     #slider .text-content {
+         display: none;
+     }
+     .place-img-mobile {
+         width: 100%;
+         margin-bottom: 16px;
+     }
+     /* Contact */
+     .contact-mobile {
+         width: 100%;
+     }
+     .contact-form {
+         margin-top: 16px;
+     }
+     .mobile-margin {
+         margin-top: 8px;
+     }
+     .s-full-width {
+         width: 100% !important;
+         text-transform: uppercase;
+     }
+ }
